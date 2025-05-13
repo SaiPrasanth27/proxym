@@ -1,0 +1,159 @@
+.hero_area {
+  width: 100%;
+  background-color: #2c2c2c;
+  color: white;
+  padding-bottom:20px;
+}
+
+.header_section {
+  padding: 15px 0;
+  background-color: transparent;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  margin-left: 20px;
+  padding: 0;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #ff7f47;
+}
+
+.login-btn {
+  background-color: #ff7f47;
+  color: white;
+  margin-right: 15px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-btn:hover {
+  background-color: #e06a36;
+}
+
+
+
+.about-section {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-title .subtitle {
+  color: #6c63ff;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.section-title .title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.section-title .description {
+  font-size: 17px;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col-md-4 {
+  flex: 0 0 33.3333%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.feature-box {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 25px 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+}
+
+.feature-box h4,
+.feature-box h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.feature-box p {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Make all boxes same height */
+.equal-box {
+  height: 220px; /* or auto + flex for responsiveness */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subheader {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 60px 0 30px;
+  color: #333;
+}
+
+.team-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  font-size: 16px;
+  color: #444;
+}
+
+.team-list li {
+  background-color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}

@@ -1,0 +1,15 @@
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    padding:8px;
+}
