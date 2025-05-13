@@ -10,9 +10,7 @@ const Header = () => {
       <header className="header_section">
         <div className="container">
           <nav className="navbar">
-            <div className="navbar-brand">
-              <img src={logo} alt="Logo" />
-            </div>
+            
             <ul className="navbar-links">
               <li><Link to="/">Home</Link></li>
               <li><Link to="/about">About</Link></li>

@@ -17,16 +17,6 @@
     flex-wrap: wrap;
   }
   
-  .navbar-brand {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .navbar-brand img {
-    height: 50px;
-  }
-  
   .navbar-links {
     list-style: none;
     display: flex;
