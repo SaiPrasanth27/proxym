@@ -1,5 +1,4 @@
 import './Header.css';
-import logo from '/proxym/proxym/src/assets/logo.jpeg';
 import { Link } from 'react-router-dom';
 
 
