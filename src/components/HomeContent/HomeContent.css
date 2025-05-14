@@ -130,7 +130,6 @@
   color: #555;
 }
 
-/* Media Queries for Responsiveness */
 @media screen and (max-width: 1024px) {
   .row {
     display: flex;
@@ -138,11 +137,11 @@
   }
 
   .softbox {
-    width: 45%; /* Reduce the width of softboxes on medium screens */
+    width: 45%;
   }
 
   .plan-box {
-    width: 45%; /* Reduce the width of plan boxes on medium screens */
+    width: 45%; 
   }
 }
 
@@ -154,12 +153,12 @@
   }
 
   .softbox {
-    width: 80%; /* Adjust width for smaller screens */
+    width: 80%;
     margin: 10px 0;
   }
 
   .plan-box {
-    width: 80%; /* Adjust width for smaller screens */
+    width: 80%;
     margin: 10px 0;
   }
 }
@@ -172,20 +171,20 @@
   }
 
   .softbox {
-    width: 90%; /* Make softboxes even more narrow on very small screens */
+    width: 90%; 
     margin: 10px 0;
   }
 
   .plan-box {
-    width: 90%; /* Make plan boxes even more narrow on very small screens */
+    width: 90%;
     margin: 10px 0;
   }
 
   .section-title {
-    font-size: 1.5rem; /* Decrease the font size of section title on smaller screens */
+    font-size: 1.5rem;
   }
 
   .plan-price {
-    font-size: 1rem; /* Decrease the font size of the price text */
+    font-size: 1rem;
   }
 }
