@@ -34,11 +34,11 @@
 }
 
 .navbar-links li a:hover {
-  color: #ff7f47;
+  color: rgb(255, 196, 81);
 }
 
 .login-btn {
-  background-color: #ff7f47;
+  background-color: rgb(255, 196, 81);
   color: white;
   margin-right: 15px;
   padding: 10px 20px;
@@ -48,7 +48,7 @@
 }
 
 .login-btn:hover {
-  background-color: #e06a36;
+  background-color: rgb(255, 196, 81);
 }
 
 
@@ -64,7 +64,7 @@
 }
 
 .section-title .subtitle {
-  color: #6c63ff;
+  color:  rgb(255, 196, 81);
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
@@ -124,9 +124,8 @@
   line-height: 1.6;
 }
 
-/* Make all boxes same height */
 .equal-box {
-  height: 220px; /* or auto + flex for responsiveness */
+  height: 220px; 
   display: flex;
   flex-direction: column;
   justify-content: center;
